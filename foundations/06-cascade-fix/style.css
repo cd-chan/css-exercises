@@ -8,14 +8,18 @@ body {
   font-weight: 800;
 }
 
+.para {
+  font-size: 22px;
+}
+
+/* put .small-para after .para bc since they have the same level of
+specificity, rule that comes later in source code will be applied */
+
 .small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
 
 .confirm.button {
   background: green;
